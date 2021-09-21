@@ -35,7 +35,7 @@ function App () {
       alert(`${name} is alredy in contacts`);
     } else {
       setContacts(prevState => (
-         [AddedContact, ...prevState.contacts]
+         [AddedContact, ...prevState]
       ));
     }
   };

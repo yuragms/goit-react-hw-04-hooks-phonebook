@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 
 import { ContactForm, Label, Input, Button } from "./ContactForm.styled";
 
-function Form (onSubmit) {
+function Form ({onSubmit}) {
   // state = {
   //   name: "",
   //   number: "",
